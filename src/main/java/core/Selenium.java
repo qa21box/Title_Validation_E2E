@@ -42,7 +42,7 @@ public class Selenium {
  title_expected = csv[2];
 
  driver.get(url);
- driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+ driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
  String title_actual = driver.getTitle();
 
  s2d[i][0] = text_case_id;
